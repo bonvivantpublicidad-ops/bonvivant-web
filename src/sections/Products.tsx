@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { AlertTriangle, Package, Check } from 'lucide-react';
 import catalogoData from '../data/catalogo.json';
 
