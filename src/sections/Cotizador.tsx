@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { Plus, Trash2, Upload, AlertTriangle, Package, Info } from 'lucide-react';
 import catalogoData from '../data/catalogo.json';
 
@@ -107,7 +107,7 @@ export default function Cotizador() {
               Agregar Producto
             </h3>
 
-            {/* Categorías */}
+            {/* Categorías - AHORA 6 EN GRID DE 3 COLUMNAS */}
             <div className="mb-6">
               <label className="block text-sm font-medium text-gray-700 mb-2">
                 Categoría *
