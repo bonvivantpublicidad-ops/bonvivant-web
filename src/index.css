@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat:wght@400;700&family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 60 33% 92%;
+    --foreground: 0 4% 3%;
+    --card: 60 33% 92%;
+    --card-foreground: 0 4% 3%;
+    --popover: 60 33% 92%;
+    --popover-foreground: 0 4% 3%;
+    --primary: 45 100% 48%;
+    --primary-foreground: 0 4% 3%;
+    --secondary: 0 100% 44%;
+    --secondary-foreground: 60 33% 92%;
+    --muted: 0 4% 15%;
+    --muted-foreground: 60 33% 70%;
+    --accent: 0 100% 44%;
+    --accent-foreground: 60 33% 92%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 0 4% 20%;
+    --input: 0 4% 20%;
+    --ring: 45 100% 48%;
+    --radius: 0.5rem;
+    
+    /* Bonvivant Brand Colors */
+    --bonvivant-black: #070909;
+    --bonvivant-red: #e20000;
+    --bonvivant-gold: #f7ba00;
+    --bonvivant-cream: #edeec7;
+  }
+
+  .dark {
+    --background: 0 4% 3%;
+    --foreground: 60 33% 92%;
+    --card: 0 4% 3%;
+    --card-foreground: 60 33% 92%;
+    --popover: 0 4% 3%;
+    --popover-foreground: 60 33% 92%;
+    --primary: 45 100% 48%;
+    --primary-foreground: 0 4% 3%;
+    --secondary: 0 100% 44%;
+    --secondary-foreground: 60 33% 92%;
+    --muted: 0 4% 15%;
+    --muted-foreground: 60 33% 70%;
+    --accent: 0 100% 44%;
+    --accent-foreground: 60 33% 92%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 0 4% 20%;
+    --input: 0 4% 20%;
+    --ring: 45 100% 48%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family: 'Inter', sans-serif;
+    overflow-x: hidden;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+  
+  .font-accent {
+    font-family: 'Caveat', cursive;
+  }
+  
+  .font-display {
+    font-family: 'Bebas Neue', sans-serif;
+  }
+}
+
+@layer utilities {
+  /* Noise grain overlay */
+  .noise-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 9999;
+    opacity: 0.03;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+  }
+  
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: var(--bonvivant-black);
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: var(--bonvivant-gold);
+    border-radius: 4px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--bonvivant-red);
+  }
+  
+  /* Text selection */
+  ::selection {
+    background: var(--bonvivant-gold);
+    color: var(--bonvivant-black);
+  }
+  
+  /* Magnetic button effect */
+  .magnetic-btn {
+    transition: transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  }
+  
+  /* Clip path reveal */
+  .clip-reveal {
+    clip-path: inset(0 100% 0 0);
+  }
+  
+  .clip-reveal-active {
+    clip-path: inset(0 0 0 0);
+  }
+  
+  /* Industrial pattern */
+  .industrial-pattern {
+    background-image: 
+      linear-gradient(45deg, transparent 48%, rgba(7, 9, 9, 0.03) 50%, transparent 52%),
+      linear-gradient(-45deg, transparent 48%, rgba(7, 9, 9, 0.03) 50%, transparent 52%);
+    background-size: 20px 20px;
+  }
+  
+  /* Gradient text */
+  .gradient-text {
+    background: linear-gradient(135deg, var(--bonvivant-gold) 0%, var(--bonvivant-red) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  
+  /* Glow effects */
+  .glow-gold {
+    box-shadow: 0 0 30px rgba(247, 186, 0, 0.3);
+  }
+  
+  .glow-red {
+    box-shadow: 0 0 30px rgba(226, 0, 0, 0.3);
+  }
+}
+
+/* Animation keyframes */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes pulse-glow {
+  0%, 100% {
+    box-shadow: 0 0 20px rgba(247, 186, 0, 0.4);
+  }
+  50% {
+    box-shadow: 0 0 40px rgba(247, 186, 0, 0.6);
+  }
+}
+
+@keyframes rotate-slow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes slide-in-left {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slide-in-up {
+  from {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+.animate-pulse-glow {
+  animation: pulse-glow 2s ease-in-out infinite;
+}
+
+.animate-rotate-slow {
+  animation: rotate-slow 60s linear infinite;
+}
