@@ -1,0 +1,654 @@
+{
+  "categorias": [
+    {
+      "id": "verano",
+      "nombre": "Verano",
+      "icono": "☀️",
+      "advertencia": "IMPORTANTE: Prendas de ALGODÓN no se pueden sublimar",
+      "productos": [
+        {
+          "id": "remera-spum-blanca",
+          "nombre": "Remera SPUM Blanca",
+          "material": "100% Poliéster SPUM",
+          "colores": [
+            "Blanco"
+          ],
+          "metodos": [
+            "Sublimación"
+          ],
+          "descripcion": "Ideal para sublimación. Tejido liviano, suave y resistente. Secado rápido.",
+          "imagen": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500",
+          "precio_base": 8500
+        },
+        {
+          "id": "remera-spum-gris",
+          "nombre": "Remera SPUM Gris Melange",
+          "material": "100% Poliéster SPUM",
+          "colores": [
+            "Gris Melange"
+          ],
+          "metodos": [
+            "Sublimación"
+          ],
+          "descripcion": "Ideal para sublimación. Color gris melange. Tejido técnico.",
+          "imagen": "https://images.unsplash.com/photo-1581655353564-df123a1eb820?w=500",
+          "precio_base": 8500
+        },
+        {
+          "id": "remera-algodon",
+          "nombre": "Remera Algodón",
+          "material": "100% Algodón",
+          "colores": [
+            "Blanco",
+            "Negro",
+            "Azul",
+            "Rojo",
+            "Verde",
+            "Gris"
+          ],
+          "metodos": [
+            "DTF",
+            "Bordado",
+            "Vinilo"
+          ],
+          "descripcion": "⚠️ NO SUBLIMABLE. Personalización disponible mediante DTF, bordado o vinilo.",
+          "imagen": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500",
+          "precio_base": 7500,
+          "no_sublimable": true
+        },
+        {
+          "id": "chomba-pique",
+          "nombre": "Chomba Piqué",
+          "material": "Poliéster",
+          "colores": [
+            "Blanco",
+            "Negro",
+            "Azul",
+            "Gris"
+          ],
+          "metodos": [
+            "Sublimación",
+            "Bordado"
+          ],
+          "descripcion": "Chomba tipo piqué ideal para uniformes empresariales.",
+          "imagen": "https://images.unsplash.com/photo-1625910513413-5fc4e5e6727b?w=500",
+          "precio_base": 12000
+        }
+      ]
+    },
+    {
+      "id": "invierno",
+      "nombre": "Invierno",
+      "icono": "❄️",
+      "advertencia": "IMPORTANTE: Polar y Friza solo permiten BORDADO",
+      "productos": [
+        {
+          "id": "buzo-polar-medio-cierre",
+          "nombre": "Buzo Polar Medio Cierre",
+          "material": "Polar grueso",
+          "colores": [
+            "Negro",
+            "Azul Marino",
+            "Gris"
+          ],
+          "metodos": [
+            "Bordado"
+          ],
+          "descripcion": "⚠️ SOLO BORDADO. Material polar - No se puede sublimar ni estampar.",
+          "imagen": "https://images.unsplash.com/photo-1544923246-77307dd628b9?w=500",
+          "precio_base": 18500,
+          "solo_bordado": true
+        },
+        {
+          "id": "campera-polar",
+          "nombre": "Campera de Polar",
+          "material": "Polar",
+          "colores": [
+            "Negro",
+            "Azul",
+            "Gris"
+          ],
+          "metodos": [
+            "Bordado"
+          ],
+          "descripcion": "⚠️ SOLO BORDADO. Material polar - No se puede sublimar.",
+          "imagen": "https://images.unsplash.com/photo-1544923246-77307dd628b9?w=500",
+          "precio_base": 22000,
+          "solo_bordado": true
+        },
+        {
+          "id": "chaleco-polar",
+          "nombre": "Chaleco de Polar",
+          "material": "Polar",
+          "colores": [
+            "Negro",
+            "Azul Marino",
+            "Gris"
+          ],
+          "metodos": [
+            "Bordado"
+          ],
+          "descripcion": "Chaleco polar cálido. Solo personalización mediante bordado.",
+          "imagen": "https://images.unsplash.com/photo-1544923246-77307dd628b9?w=500",
+          "precio_base": 16500,
+          "solo_bordado": true
+        },
+        {
+          "id": "campera-friza-capucha",
+          "nombre": "Campera de Friza con Capucha",
+          "material": "Friza/Algodón",
+          "colores": [
+            "Negro",
+            "Gris",
+            "Azul",
+            "Verde"
+          ],
+          "metodos": [
+            "Bordado",
+            "DTF"
+          ],
+          "descripcion": "⚠️ NO SUBLIMABLE. Material de friza/algodón. Bordado o DTF.",
+          "imagen": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=500",
+          "precio_base": 19500,
+          "no_sublimable": true
+        },
+        {
+          "id": "campera-inflable-trucker",
+          "nombre": "Campera Inflable Trucker",
+          "material": "Tela Trucker",
+          "colores": [
+            "Negro",
+            "Azul",
+            "Naranja",
+            "Verde"
+          ],
+          "metodos": [
+            "Estampado",
+            "Bordado"
+          ],
+          "descripcion": "Ideal para trabajos en exterior. Tela resistente tipo trucker.",
+          "imagen": "https://images.unsplash.com/photo-1544022613-e87ca75a784a?w=500",
+          "precio_base": 28500
+        },
+        {
+          "id": "campera-rompeviento",
+          "nombre": "Campera Rompe Viento",
+          "material": "Microfibra con esandex",
+          "colores": [
+            "Negro",
+            "Azul",
+            "Rojo",
+            "Verde"
+          ],
+          "metodos": [
+            "Estampado"
+          ],
+          "descripcion": "Campera rompe viento liviana. SOLO estampado (no bordado).",
+          "imagen": "https://images.unsplash.com/photo-1544022613-e87ca75a784a?w=500",
+          "precio_base": 16500,
+          "solo_estampado": true
+        }
+      ]
+    },
+    {
+      "id": "gorras",
+      "nombre": "Gorras",
+      "icono": "🧢",
+      "advertencia": "Variedad de estilos y métodos de personalización",
+      "productos": [
+        {
+          "id": "gorra-trucker-poliester-blanco",
+          "nombre": "Trucker Poliéster Frente Blanco",
+          "material": "Poliéster - Frente blanco sublimable",
+          "colores": [
+            "Frente blanco/Red color"
+          ],
+          "metodos": [
+            "Sublimación",
+            "DTF",
+            "Parche Bordado"
+          ],
+          "descripcion": "Frente blanco apto para sublimación. Múltiples opciones.",
+          "imagen": "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?w=500",
+          "precio_base": 6500
+        },
+        {
+          "id": "gorra-trucker-poliester-color",
+          "nombre": "Trucker Poliéster Frente Color",
+          "material": "Poliéster",
+          "colores": [
+            "Azul",
+            "Rojo",
+            "Negro",
+            "Verde"
+          ],
+          "metodos": [
+            "DTF",
+            "Parche Bordado"
+          ],
+          "descripcion": "Frente de color. Personalización DTF o parche bordado.",
+          "imagen": "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?w=500",
+          "precio_base": 6500
+        },
+        {
+          "id": "gorra-trucker-gabardina",
+          "nombre": "Trucker Gabardina",
+          "material": "Gabardina",
+          "colores": [
+            "Negro",
+            "Azul",
+            "Beige",
+            "Verde"
+          ],
+          "metodos": [
+            "DTF",
+            "Parche Bordado"
+          ],
+          "descripcion": "Gorra trucker en gabardina. DTF o parche bordado.",
+          "imagen": "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?w=500",
+          "precio_base": 7200
+        },
+        {
+          "id": "gorra-gabardina-5-gajos",
+          "nombre": "Gorra Gabardina 5 Gajos (Velcro)",
+          "material": "Gabardina",
+          "colores": [
+            "Negro",
+            "Azul Marino",
+            "Gris",
+            "Verde"
+          ],
+          "metodos": [
+            "DTF",
+            "Parche Bordado"
+          ],
+          "descripcion": "Gorra clásica 5 gajos con cierre de velcro.",
+          "imagen": "https://images.unsplash.com/photo-1534215754734-18e55d13e346?w=500",
+          "precio_base": 6800
+        },
+        {
+          "id": "gorra-gabardina-6-gajos",
+          "nombre": "Gorra Gabardina 6 Gajos (Hebilla Metálica)",
+          "material": "Gabardina",
+          "colores": [
+            "Negro",
+            "Azul",
+            "Gris",
+            "Blanco"
+          ],
+          "metodos": [
+            "DTF",
+            "Parche Bordado"
+          ],
+          "descripcion": "Gorra 6 gajos con cierre de hebilla metálica.",
+          "imagen": "https://images.unsplash.com/photo-1556306535-0f09a537f0a3?w=500",
+          "precio_base": 7500
+        },
+        {
+          "id": "piluso",
+          "nombre": "Piluso",
+          "material": "Algodón/Gabardina",
+          "colores": [
+            "Negro",
+            "Beige",
+            "Azul",
+            "Verde"
+          ],
+          "metodos": [
+            "DTF",
+            "Parche Bordado"
+          ],
+          "descripcion": "Piluso clásico. DTF o parche bordado.",
+          "imagen": "https://images.unsplash.com/photo-1572307480813-ceb0e59d8325?w=500",
+          "precio_base": 5800
+        },
+        {
+          "id": "australiano",
+          "nombre": "Australiano",
+          "material": "Algodón/Gabardina",
+          "colores": [
+            "Negro",
+            "Caqui",
+            "Azul"
+          ],
+          "metodos": [
+            "DTF",
+            "Parche Bordado"
+          ],
+          "descripcion": "Más grande que el piluso. Mayor cobertura.",
+          "imagen": "https://images.unsplash.com/photo-1514327605112-b887c0e61c0a?w=500",
+          "precio_base": 6200
+        },
+        {
+          "id": "gorro-lana",
+          "nombre": "Gorro de Lana",
+          "material": "Lana acrílica",
+          "colores": [
+            "Negro",
+            "Gris",
+            "Azul",
+            "Rojo",
+            "Verde"
+          ],
+          "metodos": [
+            "Parche Bordado"
+          ],
+          "descripcion": "Gorro de lana para invierno. Solo parche bordado.",
+          "imagen": "https://images.unsplash.com/photo-1576871337632-b9aef4c17ab9?w=500",
+          "precio_base": 5500,
+          "solo_bordado": true
+        }
+      ]
+    },
+    {
+      "id": "parches",
+      "nombre": "Parches y Bordados",
+      "icono": "🧵",
+      "advertencia": "Parches bordados por packs de 12 unidades",
+      "productos": [
+        {
+          "id": "parche-redondo",
+          "nombre": "Parche Redondo",
+          "material": "Hilo bordado sobre tela",
+          "tamano": "6.5cm diámetro",
+          "metodos": [
+            "Bordado"
+          ],
+          "descripcion": "Parches redondos bordados. Pack de 12 unidades.",
+          "imagen": "https://images.unsplash.com/photo-1618354691373-d851c5c3a990?w=500",
+          "precio_base": 18000,
+          "pack": 12
+        },
+        {
+          "id": "parche-cuadrado",
+          "nombre": "Parche Cuadrado",
+          "material": "Hilo bordado sobre tela",
+          "tamano": "6.5 x 6.5 cm",
+          "metodos": [
+            "Bordado"
+          ],
+          "descripcion": "Parches cuadrados bordados. Pack de 12 unidades.",
+          "imagen": "https://images.unsplash.com/photo-1618354691373-d851c5c3a990?w=500",
+          "precio_base": 18000,
+          "pack": 12
+        },
+        {
+          "id": "parche-rectangular",
+          "nombre": "Parche Rectangular",
+          "material": "Hilo bordado sobre tela",
+          "tamano": "6.5 x 6.5 cm aprox",
+          "metodos": [
+            "Bordado"
+          ],
+          "descripcion": "Parches rectangulares bordados. Pack de 12 unidades.",
+          "imagen": "https://images.unsplash.com/photo-1618354691373-d851c5c3a990?w=500",
+          "precio_base": 18000,
+          "pack": 12
+        },
+        {
+          "id": "aplique-personalizado",
+          "nombre": "Aplique Personalizado",
+          "material": "Bordado personalizado",
+          "metodos": [
+            "Cotización especial"
+          ],
+          "descripcion": "Cargar imagen con medidas y cantidades para cotizar.",
+          "imagen": "https://images.unsplash.com/photo-1558171813-4c088753af8f?w=500",
+          "precio_base": 0,
+          "cotizacion_especial": true
+        }
+      ]
+    },
+    {
+      "id": "llaveros",
+      "nombre": "Llaveros",
+      "icono": "🔑",
+      "advertencia": "Variedad de materiales y métodos de personalización",
+      "productos": [
+        {
+          "id": "llavero-lanyard",
+          "nombre": "Llavero Cinta Lanyard 15cm",
+          "material": "Cinta con argolla y gancho alambre, remachado",
+          "metodos": [
+            "Estampado un lado",
+            "Estampado ambos lados"
+          ],
+          "descripcion": "Llavero tipo lanyard de 15cm. Resistente con argolla y gancho remachado.",
+          "imagen": "https://images.unsplash.com/photo-1586953208448-b95a79798f07?w=500",
+          "precio_base": 3500
+        },
+        {
+          "id": "llavero-cuero",
+          "nombre": "Llavero Cuero Corto",
+          "material": "Cuero sintético",
+          "metodos": [
+            "Grabado Láser"
+          ],
+          "descripcion": "Llavero de cuero corto. Grabado láser.",
+          "imagen": "https://images.unsplash.com/photo-1605218427306-022ba6c5545f?w=500",
+          "precio_base": 2800
+        },
+        {
+          "id": "llavero-3d",
+          "nombre": "Llavero Impreso 3D",
+          "material": "PLA/Resina",
+          "metodos": [
+            "Impresión 3D"
+          ],
+          "descripcion": "Llaveros personalizados impresos en 3D.",
+          "imagen": "https://images.unsplash.com/photo-1631541909061-71e349d1f203?w=500",
+          "precio_base": 4500
+        },
+        {
+          "id": "llavero-sublimado-redondo",
+          "nombre": "Llavero Sublimado Redondo",
+          "material": "MDF/Metal",
+          "metodos": [
+            "Estampado una cara",
+            "Estampado ambas caras"
+          ],
+          "descripcion": "Llavero redondo sublimable.",
+          "imagen": "https://images.unsplash.com/photo-1605218427306-022ba6c5545f?w=500",
+          "precio_base": 2200
+        },
+        {
+          "id": "llavero-sublimado-cuadrado",
+          "nombre": "Llavero Sublimado Cuadrado",
+          "material": "MDF/Metal",
+          "metodos": [
+            "Estampado una cara",
+            "Estampado ambas caras"
+          ],
+          "descripcion": "Llavero cuadrado sublimable.",
+          "imagen": "https://images.unsplash.com/photo-1605218427306-022ba6c5545f?w=500",
+          "precio_base": 2200
+        },
+        {
+          "id": "llavero-sublimado-rectangular",
+          "nombre": "Llavero Sublimado Rectangular",
+          "material": "MDF/Metal",
+          "metodos": [
+            "Estampado una cara",
+            "Estampado ambas caras"
+          ],
+          "descripcion": "Llavero rectangular sublimable.",
+          "imagen": "https://images.unsplash.com/photo-1605218427306-022ba6c5545f?w=500",
+          "precio_base": 2200
+        },
+        {
+          "id": "llavero-sublimado-ovalado",
+          "nombre": "Llavero Sublimado Ovalado",
+          "material": "MDF/Metal",
+          "metodos": [
+            "Estampado una cara",
+            "Estampado ambas caras"
+          ],
+          "descripcion": "Llavero ovalado sublimable.",
+          "imagen": "https://images.unsplash.com/photo-1605218427306-022ba6c5545f?w=500",
+          "precio_base": 2200
+        },
+        {
+          "id": "llavero-sublimado-especial",
+          "nombre": "Llavero Formato Específico",
+          "material": "MDF/Metal",
+          "metodos": [
+            "Estampado una cara",
+            "Estampado ambas caras"
+          ],
+          "descripcion": "Llaveros con formatos específicos personalizados.",
+          "imagen": "https://images.unsplash.com/photo-1605218427306-022ba6c5545f?w=500",
+          "precio_base": 2500
+        }
+      ]
+    },
+    {
+      "id": "laser",
+      "nombre": "Grabado Láser y Accesorios",
+      "icono": "⚡",
+      "advertencia": "Servicio de grabado láser y artículos personalizables",
+      "productos": [
+        {
+          "id": "servicio-laser",
+          "nombre": "Servicio de Grabado Láser",
+          "material": "Varios materiales",
+          "metodos": [
+            "Grabado Láser"
+          ],
+          "descripcion": "Servicio profesional de grabado láser.",
+          "imagen": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=500",
+          "precio_base": 0,
+          "servicio": true
+        },
+        {
+          "id": "mate-termico-acero",
+          "nombre": "Mate Térmico Acero Inoxidable",
+          "material": "Acero inoxidable",
+          "colores": [
+            "Negro",
+            "Blanco",
+            "Rosa",
+            "Verde",
+            "Azul"
+          ],
+          "metodos": [
+            "Grabado",
+            "DTF UV una cara",
+            "DTF UV dos caras"
+          ],
+          "descripcion": "Mate térmico tipo Stanley. Varios colores.",
+          "imagen": "https://images.unsplash.com/photo-1544787219-7f47ccb76574?w=500",
+          "precio_base": 15000
+        },
+        {
+          "id": "vasito-termico",
+          "nombre": "Vasito Térmico",
+          "material": "Acero inoxidable",
+          "colores": [
+            "Negro",
+            "Blanco",
+            "Rosa",
+            "Verde",
+            "Azul"
+          ],
+          "metodos": [
+            "Grabado",
+            "DTF UV una cara",
+            "DTF UV dos caras"
+          ],
+          "descripcion": "Vaso térmico tipo Stanley.",
+          "imagen": "https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?w=500",
+          "precio_base": 12000
+        },
+        {
+          "id": "mate-redondo",
+          "nombre": "Mate Redondo Térmico",
+          "material": "Acero inoxidable",
+          "colores": [
+            "Negro",
+            "Blanco",
+            "Rosa",
+            "Verde",
+            "Azul"
+          ],
+          "metodos": [
+            "Grabado",
+            "DTF UV una cara",
+            "DTF UV dos caras"
+          ],
+          "descripcion": "Mate redondo térmico.",
+          "imagen": "https://images.unsplash.com/photo-1544787219-7f47ccb76574?w=500",
+          "precio_base": 13500
+        },
+        {
+          "id": "mate-madera",
+          "nombre": "Mate de Madera",
+          "material": "Madera",
+          "metodos": [
+            "Grabado Láser"
+          ],
+          "descripcion": "Mate tradicional de madera.",
+          "imagen": "https://images.unsplash.com/photo-1544787219-7f47ccb76574?w=500",
+          "precio_base": 8500
+        },
+        {
+          "id": "vaso-termico",
+          "nombre": "Vaso Térmico",
+          "material": "Acero inoxidable",
+          "colores": [
+            "Negro",
+            "Blanco",
+            "Rosa",
+            "Verde",
+            "Azul"
+          ],
+          "metodos": [
+            "Grabado",
+            "DTF UV una cara",
+            "DTF UV dos caras"
+          ],
+          "descripcion": "Vaso térmico con tapa.",
+          "imagen": "https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?w=500",
+          "precio_base": 11000
+        },
+        {
+          "id": "termo-media-manija",
+          "nombre": "Termo Media Manija",
+          "material": "Acero inoxidable",
+          "colores": [
+            "Negro",
+            "Metalizado"
+          ],
+          "metodos": [
+            "Grabado Láser"
+          ],
+          "descripcion": "Termo con media manija.",
+          "imagen": "https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=500",
+          "precio_base": 18000
+        },
+        {
+          "id": "bombilla-plana",
+          "nombre": "Bombilla Plana Grabada",
+          "material": "Acero inoxidable",
+          "metodos": [
+            "Grabado Láser"
+          ],
+          "descripcion": "Bombilla plana para mate.",
+          "imagen": "https://images.unsplash.com/photo-1544787219-7f47ccb76574?w=500",
+          "precio_base": 3500
+        },
+        {
+          "id": "virola-mate",
+          "nombre": "Grabado de Virolas",
+          "material": "Metal/Alpaca",
+          "metodos": [
+            "Grabado Láser"
+          ],
+          "descripcion": "Servicio de grabado en virolas de mates.",
+          "imagen": "https://images.unsplash.com/photo-1544787219-7f47ccb76574?w=500",
+          "precio_base": 0,
+          "servicio": true
+        }
+      ]
+    }
+  ]
+}
