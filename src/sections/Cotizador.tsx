@@ -111,7 +111,7 @@ const productosBase = [
     nombre: 'Buzo Cuello Redondo',
     descripcion: 'Frisa premium, cuello redondo clásico',
     icon: Shirt,
-    imagen: '/images/buzo-canguro.jpg',
+    imagen: '/images/buzo-cuello-redondo.jpg',
     colores: ['Negro', 'Gris', 'Azul marino', 'Rojo', 'Verde'],
     talles: ['XS', 'S', 'M', 'L', 'XL', 'XXL', '3XL'],
     tiposPersonalizado: ['Bordado', 'Estampado', 'Vinilo textil'],
