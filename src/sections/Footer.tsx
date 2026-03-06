@@ -7,7 +7,7 @@ const Footer = () => {
 
   const footerLinks = {
     productos: [
-      { name: 'Remeras Bordadas', href: '#productos' },
+      { name: 'Remeras Estampadass', href: '#productos' },
       { name: 'Grabado Láser', href: '#productos' },
       { name: 'Parches Bordados', href: '#productos' },
       { name: 'Merchandising', href: '#productos' },
@@ -19,9 +19,9 @@ const Footer = () => {
       { name: 'Términos y Condiciones', href: '#' },
     ],
     contacto: [
-      { name: 'hola@bonvivant.com', href: 'mailto:hola@bonvivant.com' },
-      { name: '+54 11 1234-5678', href: 'tel:+541112345678' },
-      { name: 'Buenos Aires, Argentina', href: '#' },
+      { name: 'Bonvivantpublicidad@gmail.com', href: 'mailto:Bonvivantpublicidad@gmail.com' },
+      { name: '+549 2227 500835', href: 'tel:+5492227500835' },
+      { name: 'Lobos-Buenos Aires, Argentina', href: '#' },
     ],
   };
 
@@ -58,13 +58,17 @@ const Footer = () => {
                 <Instagram className="w-5 h-5 text-bonvivant-cream group-hover:text-bonvivant-black transition-colors" />
               </a>
               <a
-                href="#"
+                href="https://instagram.com/bonvivantpublicidad"
+                    target="_blank"
+                    rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-bonvivant-cream/10 flex items-center justify-center hover:bg-bonvivant-gold transition-colors group"
               >
                 <Facebook className="w-5 h-5 text-bonvivant-cream group-hover:text-bonvivant-black transition-colors" />
               </a>
               <a
-                href="mailto:hola@bonvivant.com"
+                href="https://www.facebook.com/Bonvivant.grafica"
+                    target="_blank"
+                    rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-bonvivant-cream/10 flex items-center justify-center hover:bg-bonvivant-gold transition-colors group"
               >
                 <Mail className="w-5 h-5 text-bonvivant-cream group-hover:text-bonvivant-black transition-colors" />
