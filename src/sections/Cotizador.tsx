@@ -360,7 +360,7 @@ const productosBase = [
     icon: Package,
     imagen: '/images/llavero-lanyard.jpg',
     colores: ['Full color'],
-    talles: ['15cm'],
+    medida: ['15cm'],
     tiposPersonalizado: ['Estampado un lado', 'Estampado ambos lados'],
   },
   {
@@ -371,7 +371,7 @@ const productosBase = [
     icon: Package,
     imagen: '/images/llavero-cuero.jpg',
     colores: ['Negro', 'Marrón', 'Café'],
-    talles: ['Corto'],
+    detalle: ['Corto'],
     tiposPersonalizado: ['Grabado láser'],
   },
   {
@@ -382,7 +382,7 @@ const productosBase = [
     icon: Package,
     imagen: '/images/llavero-3d.jpg',
     colores: ['A definir'],
-    talles: ['Personalizado'],
+    Pack: ['Personalizado'],
     tiposPersonalizado: ['Impresión 3D'],
   },
   {
