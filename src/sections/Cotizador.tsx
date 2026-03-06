@@ -24,6 +24,17 @@ const categorias = [
 // Productos organizados por categoría
 const productosBase = [
   // === VERANO ===
+    {
+    id: 'remera-algodon',
+    categoria: 'verano',
+    nombre: 'Remera Algodón',
+    descripcion: '100% algodón peinado, 24/1, 180-200gsm - NO SUBLIMABLE',
+    icon: Shirt,
+    imagen: '/images/remera-personalizada-1.jpg',
+    colores: ['Blanco', 'Negro', 'Gris', 'Azul marino', 'Rojo', 'azul francia', 'Verde', 'Amarillo', 'Naranja'],
+    talles: ['XS', 'S', 'M', 'L', 'XL', 'XXL', '3XL'],
+    tiposPersonalizado: ['Bordado', 'Estampado DTG', 'Transfer', 'Vinilo textil'],
+  },
   {
     id: 'remera-spum-blanca',
     categoria: 'verano',
@@ -47,18 +58,6 @@ const productosBase = [
     talles: ['XS', 'S', 'M', 'L', 'XL', 'XXL', '3XL'],
     tiposPersonalizado: ['Sublimación'],
     restriccion: 'Solo sublimación'
-  },
-  {
-    id: 'remera-algodon',
-    categoria: 'verano',
-    nombre: 'Remera Algodón',
-    descripcion: '100% algodón peinado, 24/1, 180-200gsm - NO SUBLIMABLE',
-    icon: Shirt,
-    imagen: '/images/remera-personalizada-1.jpg',
-    colores: ['Blanco', 'Negro', 'Gris', 'Azul marino', 'Rojo', 'azul francia', 'Verde', 'Amarillo', 'Naranja'],
-    talles: ['XS', 'S', 'M', 'L', 'XL', 'XXL', '3XL'],
-    tiposPersonalizado: ['Bordado', 'Estampado DTG', 'Transfer', 'Vinilo textil'],
-    restriccion: 'NO SUBLIMABLE'
   },
   {
     id: 'chomba-pique',
