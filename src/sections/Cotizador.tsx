@@ -96,6 +96,40 @@ const productosBase = [
 
   // === INVIERNO ===
   {
+    id: 'buzo-canguro',
+    categoria: 'invierno',
+    nombre: 'Buzo Canguro',
+    descripcion: 'Frisa o algodón, con bolsillo delantero',
+    icon: Shirt,
+    imagen: '/images/buzo-canguro.jpg',
+    colores: ['Negro', 'Gris', 'Azul marino', 'Rojo', 'Verde', 'Beige'],
+    talles: ['XS', 'S', 'M', 'L', 'XL', 'XXL', '3XL'],
+    tiposPersonalizado: ['Bordado', 'Estampado', 'Vinilo textil'],
+  },
+  {
+    id: 'buzo-redondo',
+    categoria: 'invierno',
+    nombre: 'Buzo Cuello Redondo',
+    descripcion: 'Frisa premium, cuello redondo clásico',
+    icon: Shirt,
+    imagen: '/images/buzo-canguro.jpg',
+    colores: ['Negro', 'Gris', 'Azul marino', 'Rojo', 'Verde'],
+    talles: ['XS', 'S', 'M', 'L', 'XL', 'XXL', '3XL'],
+    tiposPersonalizado: ['Bordado', 'Estampado', 'Vinilo textil'],
+  },  
+  {
+    id: 'campera-friza-capucha',
+    categoria: 'invierno',
+    nombre: 'Campera Friza con Capucha',
+    descripcion: 'Friza/Algodón - NO SUBLIMABLE',
+    icon: Shirt,
+    imagen: '/images/campera-friza.jpg',
+    colores: ['Negro', 'Gris', 'Azul', 'Verde'],
+    talles: ['S', 'M', 'L', 'XL', 'XXL'],
+    tiposPersonalizado: ['Bordado', 'DTF'],
+    restriccion: 'NO SUBLIMABLE'
+  },
+  {
     id: 'buzo-polar-medio-cierre',
     categoria: 'invierno',
     nombre: 'Buzo Polar Medio Cierre',
@@ -132,13 +166,13 @@ const productosBase = [
     restriccion: 'SOLO BORDADO'
   },
   {
-    id: 'campera-friza-capucha',
+    id: 'chaleco-inflable',
     categoria: 'invierno',
-    nombre: 'Campera Friza con Capucha',
-    descripcion: 'Friza/Algodón - NO SUBLIMABLE',
+    nombre: 'Chaleco Inflable',
+    descripcion: 'trucker, relleno guata - NO SUBLIMABLE',
     icon: Shirt,
     imagen: '/images/campera-friza.jpg',
-    colores: ['Negro', 'Gris', 'Azul', 'Verde'],
+    colores: ['Negro', 'Blanco', 'Azul'],
     talles: ['S', 'M', 'L', 'XL', 'XXL'],
     tiposPersonalizado: ['Bordado', 'DTF'],
     restriccion: 'NO SUBLIMABLE'
@@ -165,28 +199,6 @@ const productosBase = [
     talles: ['S', 'M', 'L', 'XL', 'XXL'],
     tiposPersonalizado: ['Estampado'],
     restriccion: 'SOLO ESTAMPADO'
-  },
-  {
-    id: 'buzo-canguro',
-    categoria: 'invierno',
-    nombre: 'Buzo Canguro',
-    descripcion: 'Frisa o algodón, con bolsillo delantero',
-    icon: Shirt,
-    imagen: '/images/buzo-canguro.jpg',
-    colores: ['Negro', 'Gris', 'Azul marino', 'Rojo', 'Verde', 'Beige'],
-    talles: ['XS', 'S', 'M', 'L', 'XL', 'XXL', '3XL'],
-    tiposPersonalizado: ['Bordado', 'Estampado', 'Vinilo textil'],
-  },
-  {
-    id: 'buzo-redondo',
-    categoria: 'invierno',
-    nombre: 'Buzo Cuello Redondo',
-    descripcion: 'Frisa premium, cuello redondo clásico',
-    icon: Shirt,
-    imagen: '/images/buzo-canguro.jpg',
-    colores: ['Negro', 'Gris', 'Azul marino', 'Rojo', 'Verde'],
-    talles: ['XS', 'S', 'M', 'L', 'XL', 'XXL', '3XL'],
-    tiposPersonalizado: ['Bordado', 'Estampado', 'Vinilo textil'],
   },
   {
     id: 'chaleco',
