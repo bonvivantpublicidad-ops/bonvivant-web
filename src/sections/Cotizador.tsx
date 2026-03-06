@@ -52,10 +52,10 @@ const productosBase = [
     id: 'remera-algodon',
     categoria: 'verano',
     nombre: 'Remera Algodón',
-    descripcion: '100% algodón peinado, 180-200gsm - NO SUBLIMABLE',
+    descripcion: '100% algodón peinado, 24/1, 180-200gsm - NO SUBLIMABLE',
     icon: Shirt,
     imagen: '/images/remera-personalizada-1.jpg',
-    colores: ['Blanco', 'Negro', 'Gris', 'Azul marino', 'Rojo', 'Verde', 'Amarillo', 'Naranja'],
+    colores: ['Blanco', 'Negro', 'Gris', 'Azul marino', 'Rojo', 'azul francia', 'Verde', 'Amarillo', 'Naranja'],
     talles: ['XS', 'S', 'M', 'L', 'XL', 'XXL', '3XL'],
     tiposPersonalizado: ['Bordado', 'Estampado DTG', 'Transfer', 'Vinilo textil'],
     restriccion: 'NO SUBLIMABLE'
@@ -127,7 +127,6 @@ const productosBase = [
     colores: ['Negro', 'Gris', 'Azul', 'Verde'],
     talles: ['S', 'M', 'L', 'XL', 'XXL'],
     tiposPersonalizado: ['Bordado', 'DTF'],
-    restriccion: 'NO SUBLIMABLE'
   },
   {
     id: 'buzo-polar-medio-cierre',
