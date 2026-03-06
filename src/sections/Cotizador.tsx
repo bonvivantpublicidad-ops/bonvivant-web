@@ -157,7 +157,7 @@ const productosBase = [
     nombre: 'Chaleco de Polar',
     descripcion: 'Polar cálido - SOLO BORDADO',
     icon: Shirt,
-    imagen: '/images/chaleco.jpg',
+    imagen: '/images/chaleco-polar.jpg',
     colores: ['Negro', 'Azul Marino', 'Gris'],
     talles: ['S', 'M', 'L', 'XL', 'XXL'],
     tiposPersonalizado: ['Bordado'],
