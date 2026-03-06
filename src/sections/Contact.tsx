@@ -149,6 +149,8 @@ const Contact = () => {
                   href="https://www.facebook.com/Bonvivant.grafica"
                       target="_blank"
                       rel="noopener noreferrer"
+                  className="w-10 h-10 rounded-full bg-bonvivant-cream/10 flex items-center justify-center hover:bg-bonvivant-gold transition-colors group"
+                 >
               </div>
             </div>
           </div>
