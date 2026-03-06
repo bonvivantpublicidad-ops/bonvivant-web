@@ -49,17 +49,17 @@ const Contact = () => {
     {
       icon: MapPin,
       title: 'Ubicación',
-      content: 'Buenos Aires, Argentina',
+      content: 'PILA 128 - Lobos-Buenos Aires, Argentina',
     },
     {
       icon: Phone,
       title: 'Teléfono',
-      content: '+54 11 1234-5678',
+      content: '+549 2227 500835',
     },
     {
       icon: Mail,
       title: 'Email',
-      content: 'hola@bonvivant.com',
+      content: 'Bonvivantpublicidad@gmail.com',
     },
     {
       icon: Clock,
