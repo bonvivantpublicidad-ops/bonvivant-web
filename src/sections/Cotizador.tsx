@@ -167,13 +167,13 @@ const productosBase = [
     id: 'chaleco-inflable',
     categoria: 'invierno',
     nombre: 'Chaleco Inflable',
-    descripcion: 'trucker, relleno guata - NO SUBLIMABLE',
+    descripcion: 'Microfibra inflable, relleno guata',
     icon: Shirt,
     imagen: '/images/chaleco-inflable.jpg',
     colores: ['Negro', 'Blanco', 'Azul'],
     talles: ['S', 'M', 'L', 'XL', 'XXL'],
     tiposPersonalizado: ['Bordado', 'DTF'],
-    restriccion: 'NO SUBLIMABLE'
+    restriccion: 'SOLO BORDADO'
   },
   {
     id: 'campera-inflable-trucker',
@@ -199,15 +199,15 @@ const productosBase = [
     restriccion: 'SOLO ESTAMPADO'
   },
   {
-    id: 'chaleco',
+    id: 'PANTALON',
     categoria: 'invierno',
-    nombre: 'Chaleco Inflable',
-    descripcion: 'Microfibra inflable, solo bordado',
+    nombre: 'PANTALON CARGO',
+    descripcion: 'Tela grafa, solo estampado',
     icon: Shirt,
-    imagen: '/images/chaleco.jpg',
-    colores: ['Negro', 'Gris', 'Azul marino', 'Rojo', 'Verde', 'Naranja'],
+    imagen: '/images/pantalon-cargo.jpg',
+    colores: ['Negro', 'Azul marino', 'beige', 'Verde'],
     talles: ['S', 'M', 'L', 'XL', 'XXL'],
-    tiposPersonalizado: ['Bordado (única opción)'],
+    tiposPersonalizado: ['estampado (única opción)'],
   },
 
   // === GORRAS ===
