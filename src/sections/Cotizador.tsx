@@ -217,7 +217,7 @@ const productosBase = [
     categoria: 'gorras',
     nombre: 'Trucker Poliéster Frente Blanco',
     descripcion: 'Frente blanco sublimable',
-    icon: billed cap,
+    icon: Cap,
     imagen: '/images/gorra-trucker-blanco.jpg',
     colores: ['Frente blanco/Red color'],
     talles: ['Ajustable'],
