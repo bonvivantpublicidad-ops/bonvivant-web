@@ -21,8 +21,8 @@ const trabajos: Trabajo[] = [
     id: '1',
     categoria: 'remeras',
     imagen: '/images/remera-personalizada-1.jpg',
-    titulo: 'Remera Bordada',
-    descripcion: 'Diseño personalizado con bordado de alta calidad',
+    titulo: 'Remeras Estampadas full color',
+    descripcion: 'Diseño personalizado con la mejor calidad',
   },
   {
     id: '2',
@@ -36,7 +36,7 @@ const trabajos: Trabajo[] = [
     categoria: 'invierno',
     imagen: '/images/buzo-canguro.jpg',
     titulo: 'Buzo Canguro',
-    descripcion: 'Buzo con capucha y bordado frontal',
+    descripcion: 'Buzo con capucha y estampado frontal y espalda',
   },
   {
     id: '4',
