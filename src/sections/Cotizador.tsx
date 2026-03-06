@@ -436,7 +436,7 @@ const productosBase = [
     descripcion: 'MDF/Metal - Formatos específicos',
     icon: Package,
     imagen: '/images/llavero-especial.jpg',
-    colores: ['Personalizado'],
+    diseño: ['destapador', 'corazon', 'camiseta', 'casa', 'patita', 'hueso', 'chapa militar'],
     talles: ['Especial'],
     tiposPersonalizado: ['Una cara', 'Ambas caras'],
   },
