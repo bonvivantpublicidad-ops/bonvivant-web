@@ -152,6 +152,7 @@ const Contact = () => {
                 </a>
               </div>
             </div>
+          </div>
 
           {/* Right side - Form */}
           <div className="contact-content">
