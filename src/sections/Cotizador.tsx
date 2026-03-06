@@ -169,7 +169,7 @@ const productosBase = [
     nombre: 'Chaleco Inflable',
     descripcion: 'trucker, relleno guata - NO SUBLIMABLE',
     icon: Shirt,
-    imagen: '/images/campera-friza.jpg',
+    imagen: '/images/chaleco-inflable.jpg',
     colores: ['Negro', 'Blanco', 'Azul'],
     talles: ['S', 'M', 'L', 'XL', 'XXL'],
     tiposPersonalizado: ['Bordado', 'DTF'],
