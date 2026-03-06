@@ -14,7 +14,7 @@ gsap.registerPlugin(ScrollTrigger);
 // Categorías de productos - AHORA 6 CATEGORÍAS
 const categorias = [
   { id: 'verano', nombre: 'VERANO', icon: Sun, color: 'text-bonvivant-gold' },
-  { id: 'invierno', nombre: 'INVIERNO', icon: Snowflake, color: 'text-bonvivant-cyan-400' },
+  { id: 'invierno', nombre: 'INVIERNO', icon: Snowflake, color: 'text-cyan-400' },
   { id: 'gorras', nombre: 'GORRAS', icon: HardHat, color: 'text-bonvivant-gold' },
   { id: 'parches', nombre: 'PARCHES', icon: Award, color: 'text-bonvivant-red' },
   { id: 'llaveros', nombre: 'LLAVEROS', icon: Key, color: 'text-bonvivant-gold' },
