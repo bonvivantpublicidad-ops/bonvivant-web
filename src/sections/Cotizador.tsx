@@ -3,7 +3,7 @@ import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { 
   Plus, Minus, Upload, X, Shirt, Coffee, Award, Package, 
-  Send, Check, FileImage, AlertCircle, Sun, Snowflake, AlertTriangle, Hat, Key
+  Send, Check, FileImage, AlertCircle, Sun, Snowflake, AlertTriangle, HardHat, Key
 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
@@ -15,9 +15,9 @@ gsap.registerPlugin(ScrollTrigger);
 const categorias = [
   { id: 'verano', nombre: 'VERANO', icon: Sun, color: 'text-bonvivant-gold' },
   { id: 'invierno', nombre: 'INVIERNO', icon: Snowflake, color: 'text-bonvivant-cream' },
-  { id: 'gorras', nombre: 'GORRAS', icon: hat, color: 'text-bonvivant-gold' },
+  { id: 'gorras', nombre: 'GORRAS', icon: HardHat, color: 'text-bonvivant-gold' },
   { id: 'parches', nombre: 'PARCHES', icon: Award, color: 'text-bonvivant-red' },
-  { id: 'llaveros', nombre: 'LLAVEROS', icon: key, color: 'text-bonvivant-gold' },
+  { id: 'llaveros', nombre: 'LLAVEROS', icon: Key, color: 'text-bonvivant-gold' },
   { id: 'laser', nombre: 'LÁSER', icon: Coffee, color: 'text-bonvivant-cream' },
 ];
 
