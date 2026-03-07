@@ -133,7 +133,7 @@ export default function Products() {
                     alt={producto.nombre}
                     className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
                     onError={(e) => {
-                      (e.target as HTMLImageElement).src = '/images/remeras-personalizadas-1.jpg';
+                      (e.target as HTMLImageElement).src = 'https://via.placeholder.com/400x300?text=Producto';
                     }}
                   />
                   {advertencia && (
